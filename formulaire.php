@@ -1,6 +1,5 @@
 
-index.php
-<form action="/ma-page-de-traitement" method="post"> <!--création du balise formulaire-->
+<form action="reponse.php" method="post"> <!--création du balise formulaire-->
     <div>
         <label for="name">Nom :</label><!--Titre affiché pour l'information demandée-->
         <input type="text" id="name" name="oluser_name"><!--type d'information et ID de l'information-->
@@ -23,7 +22,7 @@ index.php
    			<option valeur="siteweb">Création de site web</option>
    			<option valeur="seo">référencement</option>
    			<option valeur="refonte">refonte de site web</option>
-   			<option valeur="gestionbo">Gestion Back Office</option>
-</input>
+   			<option valeur="gestionbo">Gestion Back Office</option></input>
     </div>
 </form>
+

@@ -1,0 +1,4 @@
+<?php
+$email = $_GET['oluser_mail'];
+echo $email;
+?>
