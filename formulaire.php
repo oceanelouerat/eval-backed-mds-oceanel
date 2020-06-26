@@ -9,7 +9,7 @@
 <body>
 
 <p> Merci de remplir les champs suivants pour obtenir votre devis </p>
-<form action="reponse.php" method="post"> <!--création du balise formulaire-->
+<form action="reponse.php" method="get"> <!--création du balise formulaire-->
     <div>
         <label for="name">Nom :</label><!--Titre affiché pour l'information demandée-->
         <input type="text" id="name" name="oluser_name"><!--type d'information et ID de l'information-->
