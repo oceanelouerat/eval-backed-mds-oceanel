@@ -1,6 +1,5 @@
 
-<!DOCTYPE html>
-<html>
+index.php
 <form action="/ma-page-de-traitement" method="post">
     <div>
         <label for="name">Nom :</label>
@@ -28,4 +27,3 @@
 </input>
     </div>
 </form>
-</html>
