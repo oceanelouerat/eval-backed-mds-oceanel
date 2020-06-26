@@ -20,7 +20,12 @@
     </div>
     <div>
         <label for="project">Votre projet :</label>
-        <input select="email" id="mail" name="oluser_mail">
+        <input type="select">
+   			<option valeur="siteweb">Création de site web</option>
+   			<option valeur="seo">référencement</option>
+   			<option valeur="refonte">refonte de site web</option>
+   			<option valeur="gestionbo">Gestion Back Office</option>
+</input>
     </div>
 </form>
 </html>
