@@ -1,19 +1,18 @@
 <?php
 
-$name = $_GET['oluser_name'];
+$name = $_GET['oluser_name']; //Récupérer l'information nom
 echo $name;
 
-$city = $_GET['oluser_city'];
+$city = $_GET['oluser_city']; //récupérer l'information ville
 echo $city;
 
-$phone = $_GET['oluser_phone'];
+$phone = $_GET['oluser_phone']; //récupérer l'information téléphone
 echo $phone;
 
-$email = $_GET['oluser_mail'];
+$email = $_GET['oluser_mail']; //récupérer l'information e-mail
 echo $email;
 
-$project = $_GET['oluser_project'];
+$project = $_GET['oluser_project']; //récupérer l'information type de projet
 echo $project;
 
-$
 ?>

@@ -7,6 +7,8 @@
 
 </head>
 <body>
+
+<p> Merci de remplir les champs suivants pour obtenir votre devis </p>
 <form action="reponse.php" method="post"> <!--création du balise formulaire-->
     <div>
         <label for="name">Nom :</label><!--Titre affiché pour l'information demandée-->
@@ -33,5 +35,6 @@
    			<option valeur="gestionbo">Gestion Back Office</option></input>
     </div>
 </form>
+<p> Merci </p>
 </body>
 </html>
