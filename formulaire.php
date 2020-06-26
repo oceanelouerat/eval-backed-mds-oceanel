@@ -16,4 +16,8 @@
         <label for="mail">e-mail :</label>
         <input type="email" id="mail" name="oluser_mail">
     </div>
+    <div>
+        <label for="project">Votre projet :</label>
+        <input select="email" id="mail" name="oluser_mail">
+    </div>
 </form>
