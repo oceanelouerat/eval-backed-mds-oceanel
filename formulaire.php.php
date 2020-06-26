@@ -2,20 +2,20 @@
 
 <form action="/ma-page-de-traitement" method="post">
     <div>
-        <label for="olsurname">Nom :</label>
-        <input type="text" id="name" name="user_name">
+        <label for="surname">Nom :</label>
+        <input type="text" id="name" name="oluser_surname">
     </div>
     <div>
-        <label for="olname">Prénom :</label>
-        <input type="text" id="name" name="user_name">
+        <label for="name">Prénom :</label>
+        <input type="text" id="name" name="oluser_name">
     </div>
     <div>
-        <label for="olmail">e-mail :</label>
-        <input type="email" id="mail" name="user_mail">
+        <label for="mail">e-mail :</label>
+        <input type="email" id="mail" name="oluser_mail">
     </div>
     <div>
-        <label for="olmsg">Message :</label>
-        <textarea id="msg" name="user_message"></textarea>
+        <label for="msg">Message :</label>
+        <textarea id="msg" name="oluser_message"></textarea>
     </div>
 </form>
 
