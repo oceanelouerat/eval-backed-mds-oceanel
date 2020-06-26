@@ -1,4 +1,6 @@
 
+<!DOCTYPE html>
+<html>
 <form action="/ma-page-de-traitement" method="post">
     <div>
         <label for="name">Nom :</label>
@@ -21,3 +23,4 @@
         <input select="email" id="mail" name="oluser_mail">
     </div>
 </form>
+</html>
