@@ -10,7 +10,7 @@
     </div>
     <div>
         <label for="phone">Téléphone :</label><!--Titre affiché pour l'information demandée-->
-        <input id="phone" name="oluser_phone"><!--type d'information et ID de l'information-->
+        <input type="text" id="phone" name="oluser_phone"><!--type d'information et ID de l'information-->
     </div>
     <div>
         <label for="mail">e-mail :</label><!--Titre affiché pour l'information demandée-->
