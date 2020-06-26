@@ -1,13 +1,22 @@
-<form action="" method="post">
-  <p>
-    <?= isset($erreurs) && in_array(\Entity\Comment::AUTEUR_INVALIDE, $erreurs) ? 'L\'auteur est invalide.<br />' : '' ?>
-    <label>Pseudo</label>
-    <input type="text" name="pseudo" value="<?= isset($comment) ? htmlspecialchars($comment['auteur']) : '' ?>" /><br />
-    
-    <?= isset($erreurs) && in_array(\Entity\Comment::CONTENU_INVALIDE, $erreurs)) 'Le contenu est invalide.<br />' : '' ?>
-    <label>Contenu</label>
-    <textarea name="contenu" rows="7" cols="50"><?= isset($comment) ? htmlspecialchars($comment['contenu']) : '' ?></textarea><br />
-    
-    <input type="submit" value="Commenter" />
-  </p>
+<p>Pour recevoir votre devis, merci de bien vouloir remplir les champs suivants.</p>
+
+<form action="/ma-page-de-traitement" method="post">
+    <div>
+        <label for="olsurname">Nom :</label>
+        <input type="text" id="name" name="user_name">
+    </div>
+    <div>
+        <label for="olname">Prénom :</label>
+        <input type="text" id="name" name="user_name">
+    </div>
+    <div>
+        <label for="olmail">e-mail :</label>
+        <input type="email" id="mail" name="user_mail">
+    </div>
+    <div>
+        <label for="olmsg">Message :</label>
+        <textarea id="msg" name="user_message"></textarea>
+    </div>
 </form>
+
+<p>Merci.</p>
