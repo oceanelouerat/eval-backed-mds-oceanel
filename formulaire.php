@@ -18,7 +18,7 @@
     </div>
     <div>
         <label for="project">Votre projet :</label><!--Titre affiché pour l'information demandée-->
-        <input type="select"><!--Choix déroulant de propositions-->
+        <input type="select" id="project" name="oluser_project"><!--Choix déroulant de propositions-->
    			<option valeur="siteweb">Création de site web</option>
    			<option valeur="seo">référencement</option>
    			<option valeur="refonte">refonte de site web</option>
