@@ -1,7 +1,19 @@
-<p>Pour recevoir votre devis, merci de bien vouloir remplir les champs suivants.</p>
 
-<form action="/my-handling-form-page" method="post">
-
+<form action="/ma-page-de-traitement" method="post">
+    <div>
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="oluser_name">
+    </div>
+    <div>
+        <label for="city">Ville :</label>
+        <input type="text" id="city" name="oluser_city">
+    </div>
+    <div>
+        <label for="phone">Téléphone :</label>
+        <input id="phone" name="oluser_phone">
+    </div>
+    <div>
+        <label for="mail">e-mail :</label>
+        <input type="email" id="mail" name="oluser_mail">
+    </div>
 </form>
-
-<p>Merci.</p>
