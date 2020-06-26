@@ -1,4 +1,12 @@
 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UFT-8">
+	<title> Formulaire pour devis</title>
+
+</head>
+<body>
 <form action="reponse.php" method="post"> <!--création du balise formulaire-->
     <div>
         <label for="name">Nom :</label><!--Titre affiché pour l'information demandée-->
@@ -25,4 +33,5 @@
    			<option valeur="gestionbo">Gestion Back Office</option></input>
     </div>
 </form>
-
+</body>
+</html>
